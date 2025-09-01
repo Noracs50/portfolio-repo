@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nora Raafat | Data Analyst Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <header class="bg-blue-600 text-white text-center py-20 shadow-lg">
+    <h1 class="text-4xl font-bold">Nora Raafat</h1>
+    <p class="mt-4 text-lg">Junior Data Analyst | Turning Data into Decisions</p>
+    <a href="#contact" class="mt-6 inline-block bg-white text-blue-600 px-6 py-2 rounded-full font-semibold shadow hover:bg-gray-100 transition">Contact Me</a>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-blue-600 mb-6">About Me</h2>
+    <p class="text-lg leading-relaxed">
+      I’m Nora, a junior data analyst passionate about uncovering insights hidden in data. 
+      With strong skills in Excel, SQL, and Power BI, I focus on creating clean, clear, and actionable reports. 
+      <span class="font-semibold">USP:</span> I transform raw data into meaningful insights that support smarter business decisions.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-gray-100 py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-600 mb-10 text-center">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">Excel & Power Query</div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">SQL</div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">Python (Pandas, Matplotlib)</div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">Power BI & Tableau</div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">Data Cleaning & Visualization</div>
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">Problem-Solving & Communication</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-blue-600 mb-10 text-center">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6">
+        <h3 class="text-xl font-semibold mb-2">Titanic Survival Analysis</h3>
+        <p class="mb-4">Cleaned and analyzed passenger data using Python & Power BI dashboards.</p>
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Project →</a>
+      </div>
+      <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6">
+        <h3 class="text-xl font-semibold mb-2">Sales Dashboard</h3>
+        <p class="mb-4">Created an interactive Power BI dashboard to track KPIs and trends.</p>
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Project →</a>
+      </div>
+      <div class="bg-white rounded-2xl shadow hover:shadow-xl transition p-6">
+        <h3 class="text-xl font-semibold mb-2">Customer Segmentation</h3>
+        <p class="mb-4">Used SQL & Python for clustering analysis to identify customer groups.</p>
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View Project →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-blue-600 mb-6">Resume</h2>
+      <p class="mb-4">Download my resume to explore my background and experience:</p>
+      <a href="resume.pdf" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold shadow hover:bg-blue-700 transition">Download CV</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-blue-600 mb-6">Contact</h2>
+    <p>Email: <a href="mailto:nora@example.com" class="text-blue-600 hover:underline">nora@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-blue-600 hover:underline">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank" class="text-blue-600 hover:underline">github.com/yourusername</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center py-6 mt-10">
+    <p>&copy; 2025 Nora Raafat | Data Analyst Portfolio</p>
+  </footer>
+
+</body>
+</html>
